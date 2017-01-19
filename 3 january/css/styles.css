@@ -404,7 +404,7 @@ header
 	top: -5px;
 	transform: translateX(-50%);
 }
-.our-team-block h2{
+.our-team-block h2 {
 	padding-top: 15px;
 	text-align: center;
 }
@@ -416,10 +416,173 @@ header
 .our-team-block .content-wrapper {
 	position: relative;
 }
-.our-team-block li {
+.our-team-block .workers li {
+	display: inline-block;
 	height: 350px;
 	width: 263px;
+	background: #ffffff;
+	margin: 10px 10px;
 }
+.our-team-block .workers li:nth-child(1) {
+	border-bottom: 3px solid #fc5f45;
+}
+.our-team-block .workers li:nth-child(2) {
+	border-bottom: 3px solid #38c695;
+}
+.our-team-block .workers li:nth-child(3) {
+	border-bottom: 3px solid #b27cf5;
+}
+.our-team-block .workers li:nth-child(4) {
+	border-bottom: 3px solid #feb960;
+}
+.our-team-block img {
+	padding: 5px 0 0 5px;
+}
+.our-team-block h4 {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	margin: 15px 0 0;
+}
+.our-team-block .h4-1 {
+	color: #fc5f45;
+}
+.our-team-block .h4-2 {
+	color: #38c695;
+}
+.our-team-block .h4-3 {
+	color: #b27cf5;
+}
+.our-team-block .h4-4 {
+	color: #feb960;
+}
+.our-team-block li p {
+	padding: 10px;
+	font-size: 13px;
+}
+.about-bennet {
+	height: 350px;
+	background: #fff;
+	margin-top: 50px;
+}
+.about-bennet h3 {
+	font-size: 20px;
+	font-weight: 500;
+	padding: 60px 0 0 100px;
+}
+.about-bennet p {
+	font-size: 15px;
+	padding-left: 100px;
+	font-weight: 400;
+	text-align: left;
+  max-width: 735px;
+	display: inline-block;
+}
+.about-bennet img {
+  position: relative;
+	left: 110px;
+	top: -50px;
+	display: inline-block;
+}
+.about-bennet i img {
+  left: 120px;
+	top: 0;
+	display: inline-block;
+}
+.social {
+	vertical-align: top;
+	top: 55px;
+	display: inline-block;
+	position: relative;
+	left: 140px;
+	
+}
+.social li {
+	padding-bottom: 10px;
+}
+
+
+
+.features-block {
+	background: url(../img/04/bottom-background.jpg) no-repeat 50%/cover;
+	padding: 140px 120px;
+}
+.features-block ul {
+	margin: 0 -15px;
+}
+.features-block li {
+	float: left;
+	padding: 0 15px;
+	text-align: center;
+	width: 25%;
+}
+.features-block h3 {
+	color: #fefefe;
+	margin-bottom: 25px;
+	padding-top: 75px;
+}
+.features-block p {
+	color: rgba(254, 254, 254, 0.7);
+	margin-bottom: 25px;
+}
+
+.features-block .projects h3 {
+	background: url(../img/04/f-icon1.png) no-repeat 50% 0;
+}
+.features-block .clients h3 {
+	background: url(../img/04/f-icon2.png) no-repeat 50% 0;
+}
+.features-block .feedbacks h3 {
+	background: url(../img/04/f-icon3.png) no-repeat 50% 0;
+}
+.features-block .releases h3 {
+	background: url(../img/04/f-icon4.png) no-repeat 50% 0;
+}
+
+.features-block .circle {
+	border: 2px solid #fc5f45;
+	border-radius: 50%;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	position: relative;
+}
+.features-block .circle:before {
+	content: '';
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fc5f45;
+	height: 7px;
+	width: 7px;
+}
+
+.features-block .projects .circle {background-color: #fc5f45;}
+.features-block .projects .circle:before {background-color: #fc5f45;}
+
+.features-block .clients .circle {background-color: #38c695;}
+.features-block .clients .circle:before {background-color: #38c695;}
+
+.features-block .feedbacks .circle {background-color: #b27cf5;}
+.features-block .feedbacks .circle:before {background-color: #b27cf5;}
+
+.features-block .releases .circle {background-color: #feb960;}
+.features-block .releases .circle:before {background-color: #feb960;}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
