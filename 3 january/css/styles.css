@@ -77,7 +77,8 @@ a {
 	color: #fff;
 }
 .button.green {
-	background-color: #38c695;
+	background-color: #fff;
+	border-color: #38c695;
 	color: #38c695;
 }
 .button.blue {
@@ -85,7 +86,7 @@ a {
 	color: #b27cf5;
 }
 .button.red:hover,
-.button.green:hover,
+/* .button.green:hover, */
 .button.blue:hover {
 		background-color: transparent;
 }
@@ -95,7 +96,8 @@ a {
 }
 .button.green:hover {
 	border-color: #38c695;
-	color: #38c695;
+	color: #fff;
+	background-color: #38c695;
 }
 .button.blue:hover {
 	border-color: #b27cf5;
